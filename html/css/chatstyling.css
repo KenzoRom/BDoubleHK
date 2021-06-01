@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 20% / 60% / 20%;
+    grid-template-rows: 10% / 10% / 10% / 10% / 10% / 10% / 20%;
+}
+
+.main-icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.settings-icon {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.chat-icon {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+
+.home-icon {
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+
+.user-icon {
+    grid-column: 3 / 4;
+    grid-row: 8 / 9;
+}
