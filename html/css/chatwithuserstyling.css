@@ -1,0 +1,49 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.grid {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    height:100vh
+}
+
+.home-icon, .chat-icon, .user-icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.chat-icon {
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+}
+
+.home-icon {
+    grid-column: 2 / 3;
+    grid-row: 10 / 11;
+}
+
+.user-icon {
+    grid-column: 3 / 4;
+    grid-row: 10 / 11;
+}
+
+.settings-icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.main-icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
