@@ -1,49 +1,46 @@
-.body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.grid {
-    display: grid;
-    border: 1px solid black;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    height:100vh
-}
-
-.home-icon, .chat-icon, .user-icon {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    font-size: 40px;
-}
-
-.chat-icon {
-    grid-column: 1 / 2;
-    grid-row: 10 / 11;
-}
-
-.home-icon {
+.photo {
     grid-column: 2 / 3;
-    grid-row: 10 / 11;
-}
-
-.user-icon {
-    grid-column: 3 / 4;
-    grid-row: 10 / 11;
-}
-
-.settings-icon {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    grid-row: 3 / 6;
+    align-items: center;
     justify-content: center;
-    font-size: 30px;
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
 }
 
-.main-icon {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+.photo-styling {
+    max-width: 50vw;
+    padding: 10px;
+    display: flex;
+}
+
+.name {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    font-size: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    grid-column: 2 / 3;
+    grid-row: 2 / 9;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.bio {
+    padding-top: 10px;
+    max-width: 60vw;
+    grid-column: 2 / 3;
+    grid-row: 7 / 9;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.swipe-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
 }
