@@ -84,7 +84,7 @@
     grid-row: 8 / 9;
 }
 
-.name-1, .name-2, .name-3, .name-4, .name-5, .name6, .name7, .name8 {
+.name-1, .name-2, .name-3, .name-4, .name-5, .name-6, .name-7 {
     display: flex;
     align-items: center;
 }

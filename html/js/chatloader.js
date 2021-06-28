@@ -1,11 +1,5 @@
 let matchedUsers = JSON.parse(sessionStorage.getItem("matchedusersarray"));
 
-console.log(matchedUsers[0]);
-console.log(matchedUsers[1]);
-console.log(matchedUsers[2]);
-
-
-
 const name1 = document.querySelector('.name-1');
 const name2 = document.querySelector('.name-2');
 const name3 = document.querySelector('.name-3');
