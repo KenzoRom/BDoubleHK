@@ -1,6 +1,8 @@
 export default class User {
-    constructor(name, photo, bio) {
+    constructor(name, bio, like) {
         this.name = name;
-        this.photo = photo;
         this.bio = bio;
+        this.like = like;
+        this.userLike = 0
     }
+} 
